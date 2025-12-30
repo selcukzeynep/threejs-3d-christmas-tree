@@ -7,8 +7,8 @@ Bu proje, **"Bu sene yılbaşı ağacı süslemek yerine kodluyorum"** akımınd
   </p>
 
 ## 🔗 Canlı Demo (Live Demo)
-Projeyi canlı görüntülemek için: **[BURAYA TIKLAYIN]([https://selcukzeynep.github.io/threejs-3d-christmas-tree/])**
-*(Not: Linki kendi GitHub Pages linkinle değiştirmeyi unutma)*
+Projeyi canlı görüntülemek için: **[BURAYA TIKLAYIN]([[https://selcukzeynep.github.io/threejs-3d-christmas-tree/]](https://selcukzeynep.github.io/threejs-3d-christmas-tree/))**
+
 
 ## 🚀 Proje Hakkında
 Bu çalışma, standart HTML/CSS sınırlarını aşarak, tarayıcı üzerinde gerçek zamanlı 3D render işlemi gerçekleştirmektedir. Kullanıcılar ağacı mouse veya dokunmatik kontrollerle 360 derece inceleyebilir, yakınlaşıp uzaklaşabilirler.
