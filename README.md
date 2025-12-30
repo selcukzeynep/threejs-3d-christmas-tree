@@ -1,57 +1,51 @@
 # 🎄 3D Interactive Christmas Tree
 
-Bu proje, **"Bu sene yılbaşı ağacı süslemek yerine kodluyorum"** akımından ilham alınarak, modern web teknolojileri ve 3D grafik kütüphaneleri kullanılarak geliştirilmiştir.
+Bu proje, **"Bu sene yılbaşı ağacı süslemek yerine kodluyorum"** akımından ilham alınarak, modern web teknolojileri ve 3D grafik kütüphaneleri kullanılarak Zeynep Selçuk tarafından geliştirilmiştir.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Proje+Ekran+Goruntusu+Buraya" alt="Yılbaşı Ağacı Demo" width="100%">
-  </p>
+  <img src="https://via.placeholder.com/800x400?text=Proje+Ekran+Goruntusu" alt="Yılbaşı Ağacı Demo" width="100%">
+</p>
 
 ## 🔗 Canlı Demo (Live Demo)
-Projeyi canlı görüntülemek için: **[BURAYA TIKLAYIN]([https://selcukzeynep.github.io/threejs-3d-christmas-tree/])**
 
+Projeyi tarayıcınızda canlı olarak görüntülemek ve etkileşime girmek için aşağıdaki linke tıklayın:
+
+> 🌟 **[https://selcukzeynep.github.io/threejs-3d-christmas-tree/](https://selcukzeynep.github.io/threejs-3d-christmas-tree/)**
 
 ## 🚀 Proje Hakkında
+
 Bu çalışma, standart HTML/CSS sınırlarını aşarak, tarayıcı üzerinde gerçek zamanlı 3D render işlemi gerçekleştirmektedir. Kullanıcılar ağacı mouse veya dokunmatik kontrollerle 360 derece inceleyebilir, yakınlaşıp uzaklaşabilirler.
 
 Amaç, kış atmosferini ve yılbaşı ruhunu dijital bir deneyime dönüştürmektir.
 
 ## ✨ Özellikler
 
-* **Gerçekçi 3D Modelleme:** Basit geometrik şekiller yerine, yüzlerce parçadan oluşan detaylı ağaç yapısı.
-* **Yüksek Performans (InstancedMesh):** 8000'den fazla yaprak ve yüzlerce süs, `Three.js InstancedMesh` teknolojisi ile tek bir "draw call" içinde çizdirilerek maksimum FPS (kare hızı) sağlanmıştır.
-* **Dinamik Işıklandırma & Gölgeler:** Sahneye derinlik katan ortam ışığı (Ambient), spot ışıklar ve gerçek zamanlı gölge hesaplamaları.
-* **Partikül Sistemi (Particle System):** Derinlik algısına sahip, sürekli döngüde çalışan kar yağışı efekti.
-* **İnteraktif Kontroller:** `OrbitControls` sayesinde tam kamera kontrolü.
-* **Responsive Tasarım:** Mobil ve masaüstü cihazlara otomatik uyum sağlayan dinamik kanvas yapısı.
+* **Gerçekçi 3D Modelleme:** Basit geometrik şekiller yerine, yüzlerce parçadan oluşan detaylı ve "pofuduk" ağaç yapısı.
+* **Yüksek Performans (InstancedMesh):** 8000'den fazla yaprak ve yüzlerce süs, `Three.js InstancedMesh` teknolojisi ile performans kaybı olmadan çizdirilmektedir.
+* **Dinamik Işıklandırma & Gölgeler:** Sahneye derinlik katan ortam ışığı, spot ışıklar ve gölge hesaplamaları.
+* **Partikül Sistemi (Snow Effect):** Derinlik algısına sahip, sürekli döngüde çalışan kar yağışı simülasyonu.
+* **İnteraktif Kontroller:** `OrbitControls` sayesinde tam kamera kontrolü (Zoom, Rotate, Pan).
+* **Responsive Tasarım:** Mobil ve masaüstü cihazlara otomatik uyum sağlar.
 
 ## 🛠️ Kullanılan Teknolojiler
 
 * **JavaScript (ES6+)**
 * **Three.js** (3D Grafik Motoru)
 * **HTML5 & CSS3**
-* **Vite / Webpack** (Modül yükleme yapısı - CDN üzerinden)
 
 ## 💻 Kurulum ve Çalıştırma
 
-Projeyi kendi bilgisayarınızda çalıştırmak için:
+Bu projeyi kendi bilgisayarınızda geliştirmek isterseniz:
 
 1.  Bu repoyu klonlayın:
     ```bash
-    git clone [https://github.com/kullaniciadi/yilbasi-agaci.git](https://github.com/kullaniciadi/yilbasi-agaci.git)
+    git clone [https://github.com/selcukzeynep/threejs-3d-christmas-tree.git](https://github.com/selcukzeynep/threejs-3d-christmas-tree.git)
     ```
-2.  Klasörün içine girin ve `index.html` dosyasını bir "Live Server" eklentisi ile veya yerel sunucu ile açın.
-    *(Three.js güvenlik politikaları gereği doğrudan dosya açıldığında dokular yüklenmeyebilir, yerel sunucu önerilir.)*
-
-## 📝 Özelleştirme
-
-`index.html` dosyası içerisindeki parametreleri değiştirerek ağacı kişiselleştirebilirsiniz:
-
-* `leafCount`: Ağacın yoğunluğunu artırır/azaltır.
-* `ornamentCount`: Süs sayısını belirler.
-* `colors`: Materyal renklerini (Hex kodu ile) değiştirebilirsiniz.
+2.  Klasörün içine girin.
+3.  `index.html` dosyasını bir yerel sunucu (Live Server vb.) ile açın.
 
 ---
 
 <p align="center">
   Mutlu Yıllar! 🎁🎅
-</p># threejs-3d-christmas-tree
+</p>
