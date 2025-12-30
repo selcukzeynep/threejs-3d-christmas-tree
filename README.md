@@ -7,7 +7,7 @@ Bu proje, **"Bu sene yılbaşı ağacı süslemek yerine kodluyorum"** akımınd
   </p>
 
 ## 🔗 Canlı Demo (Live Demo)
-Projeyi canlı görüntülemek için: **[BURAYA TIKLAYIN](https://selcukzeynep.github.io/threejs-3d-christmas-tree/)**
+Projeyi canlı görüntülemek için: **[BURAYA TIKLAYIN]([https://selcukzeynep.github.io/threejs-3d-christmas-tree/])**
 *(Not: Linki kendi GitHub Pages linkinle değiştirmeyi unutma)*
 
 ## 🚀 Proje Hakkında
